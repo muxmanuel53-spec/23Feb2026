@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*alineación horizontal*/
+    justify-content: center;
+    /*alineación vertical*/
+    align-items: center;
+    height: 150px;
+    background-color: aqua;
+    
+}
+.item{
+    border: 1px solid blue;
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+}
+.contenedor{
+    display: flex;
+    /*si el elemento no se asjusta esto lo ajusta en la fila de abajo*/
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction:column-reverse;
+    height: 200px;
+    background-color: aqua;
+}
+article{
+    border: 1px solid black;
+    width: 100px;
+    margin: 10px;
+    height:50px;
+
+}
+.uno{
+    align-self: center;
+}
+.centro{
+    align-self: center;
+}
+.abajo{
+    align-self: flex-end;
+}
